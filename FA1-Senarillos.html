@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Charity FORMe</title>
+  <style>
+    body {
+      background-image: url("https://i.pinimg.com/736x/3b/0b/9c/3b0b9c4a8a09ee7d91fb2cdc42e006d2.jpg");
+      background-color: #f0f0f0;
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-size: cover;
+      color: #333;
+    }
+
+    header {
+      background-color: rgba(235, 226, 218, 0.85 );
+      height: 250px;
+      text-align: center;
+      border-bottom: 2px solid #ccc;
+    }
+
+    header h1 {
+      font-size: 36px;
+      color: #755e3b;
+    }
+
+    header p {
+      font-size: 18px;
+      width: 80%;
+      margin: 0 auto;
+      padding-top: 10px;
+    }
+    
+     form {
+      background-color: rgba(255, 255, 255, 0.9);
+      margin: 50px auto;
+      padding: 20px;
+      width: 60%;
+    }
+
+    form legend {
+      font-size: 24px;
+      color: #755e3b;
+      margin-bottom: 15px;
+      font-weight: bold;
+    }
+
+  </style>
+  
+</head>
+<body>
+
+  <header>
+    <h1>Furry Friends Foundation</h1>
+    <p>I am supporting this charity organization because it is dedicated to improving the lives of animals in need, and I truly believe in their mission. First, they provide immediate rescue and medical care to abandoned and injured animals, ensuring they get the treatment they deserve. Second, the organization prioritizes education and awareness, helping communities understand the importance of responsible pet ownership and animal welfare. Lastly, they focus on long-term solutions such as adoption programs, giving these animals a second chance at a loving home. Knowing that my support helps make a tangible difference in the lives of these animals motivates me to continue contributing to this cause.</p>
+  </header>
+
+<form id="sign-up">
+  <fieldset>
+		<legend>Sign-up Form: </legend>
+        
+        <label for="First">First Name:</label>
+ 		<input type="text" id="First" name="First" required><br><br>
+        
+ 		<label for="Last">Last Name:</label>
+        <input type="text" id="Last" name="Last"required><br><br>
+        
+ 		 <p>Select your gender:</p>
+         <input type="radio" id="Male" name="sex" value="Male" required>
+         <label for="Male">Male</label></br>
+         
+         <input type="radio" id="Female" name="sex" value="Female" required>
+         <label for="Female">Female</label></br>
+         
+         <input type="radio" id="Preder not to say" name="sex" value="Prefer not to say" required>
+         <label for="Prefer not to say">Prefer not to say</label><br><br>
+         
+         <label for="email">Email Address:</label>
+ 		<input type="text" id="email" name="email" required><br><br>
+        
+        <label for="num">Contact Number:</label>
+ 		<input type="text" id="num" name="num"><br><br>
+        
+		<input type="submit" value="Submit">
+		<input type="reset" value="Clear">
+ </fieldset>
+</form>
+
+
+</body>
+</html>
